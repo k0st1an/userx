@@ -18,10 +18,10 @@ func main() {
 		log.Fatalln(err)
 	}
 
-  userd := userx.DeleteUser{Name: "Test", DeleteEmailHomeDir: true}
+	userd := userx.DeleteUser{Name: "Test", DeleteEmailHomeDir: true}
 
-  if err := userd.Delete(); err != nil {
-    log.Fatalln(err)
-  }
+	if err := userd.Delete(); err != nil {
+		log.Fatalln(err)
+	}
 }
 ```
