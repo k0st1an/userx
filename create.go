@@ -1,4 +1,4 @@
-package mngus
+package userx
 
 import (
 	"fmt"
