@@ -2,6 +2,8 @@
 
 ## Usage
 
+> Tested in Ubuntu/Debian
+
 ```golang
 package main
 
